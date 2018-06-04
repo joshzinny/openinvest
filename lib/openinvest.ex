@@ -1,18 +1,7 @@
 defmodule Openinvest do
-  @moduledoc """
-  Documentation for Openinvest.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Openinvest.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def validate_integer(val) do
+    is_integer(if true do
+      val
+    end)
   end
 end
